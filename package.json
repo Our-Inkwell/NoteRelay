@@ -1,6 +1,6 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "NoteRelay",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "dotenv": "^1.2.0",
