@@ -3,19 +3,15 @@
  */
 ROOT = __dirname;
 
-require('dotenv').load();
+var dotenv = require('dotenv');
+
+dotenv.load();
 
 var express = require('express'),
   routes = require('./routes'),
   api = require('./routes/api');
 
 var evernote = require('evernote');
-// var dotenv = require('dotenv');
-
-//  require('dotenv').load();
-
-
-// console.log(dotenv)
 
 // dotenv._getKeysAndValuesFromEnvFilePath(__dirname + '/.env');
 // // dotenv._setEnvs();
