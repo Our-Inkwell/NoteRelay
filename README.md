@@ -1,3 +1,4 @@
 # NoteRelay
 Allows creating and sharing notes between Evernote and Google Docs
-## Backend is structured using the PHP framework Laravel
+## Backend 
+The backend is structured using the PHP framework Laravel
